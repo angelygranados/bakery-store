@@ -39,6 +39,12 @@ $handwrite_font: 'Allura', cursive
   margin: $space 0
   text-transform: uppercase
   text-align: $align
+@mixin  copy($color: $txt_color, $align: left, $size: 18px)
+  color: $color
+  font-family: $primary_font
+  text-align: $align
+  font-size: $size
+  
 @mixin navigation($color: $txt_color, $hover: $primary_color, $active: $secondary_color)
   ul
     display: flex
@@ -70,11 +76,11 @@ h2
   @include headline 
 
 h3 
-  font-size: 25px
+  font-size: 20px
   font-weight: 400
   @include headline 
 h4 
-  font-size: 25px
+  font-size: 20px
   font-family: $handwrite_font
 
 // ██╗  ██╗ ██████╗ ██╗   ██╗███████╗██████╗     ███████╗███████╗███████╗███████╗ ██████╗████████╗███████╗

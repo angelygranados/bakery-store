@@ -1,0 +1,26 @@
+.card_list 
+  display: flex
+  flex-wrap: wrap
+  justify-content: space-between
+  gap: $space *2
+  .card
+    width: 205px
+    max-width: 30%
+    img 
+      width: 200px
+      height: 200px
+    &__content
+      text-align: center
+      &-title
+        text-align: center
+        margin-bottom: 0
+      &-category 
+        font-family: $handwrite_font
+        font-size: 20px
+        font-weight: bold
+      &-price
+        display: block
+        margin: $space /2 0
+        @include copy($align: center)
+
+      
