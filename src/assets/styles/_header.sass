@@ -1,0 +1,21 @@
+header 
+  display: flex
+  justify-content: space-around
+  align-items: center
+  padding: $space * 2 $space
+  figure 
+    margin: 0
+    img 
+      width: 100px
+  .navigation 
+    display: flex
+    min-width: 30%
+    justify-content: space-between
+    nav 
+      @include navigation
+    &__actions 
+        img 
+          max-width: 40px
+          max-height: 40px
+          margin: 5px
+

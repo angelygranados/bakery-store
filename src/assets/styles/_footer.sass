@@ -1,0 +1,13 @@
+footer 
+  display: flex
+  justify-content: center
+  align-items: center
+  padding: $space * 2 $space
+  background-color: $primary_color
+  .icon 
+    figure 
+      margin: 0
+      img 
+        width: 100px
+  .secondary_nav
+    @include navigation($color: $white, $hover: $txt_color_ligth , $active: $secondary_color)
