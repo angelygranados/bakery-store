@@ -1,14 +1,16 @@
 .card_list 
   display: flex
   flex-wrap: wrap
-  justify-content: space-between
-  gap: $space *2
+  justify-content: center
+  gap: $space *4
+  padding: $space*4 0
   .card
-    width: 205px
+    width: 250px
     max-width: 30%
     img 
-      width: 200px
+      width: 100%
       height: 200px
+      object-fit: cover
     &__content
       text-align: center
       &-title
