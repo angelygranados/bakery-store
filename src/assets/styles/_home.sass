@@ -6,14 +6,28 @@
       width: 100%
       height: 100%
   &__intro
-    height: 500px
+    display: flex
+    padding: $space * 5
+    align-items: center
+    .intro__images 
+      width: 60%
+      position: relative
+      padding: $space * 4
+      &--first 
+        width: 70%
+      &--second
+        width: 50%
+        position: absolute
+        top: 40%
+        right: 0
+    .intro__content
+      padding: $space * 4
+      width: 40%
+      vertical-align: middle
+      p 
+        @include copy
   &__featured_products
-    @include wrapper
+    
     h2 
       text-align: center
-      &::after
-        content: ""
-        background: $secondary_color
-        width: 100%
-        height: 1px
-        display: inline-block
+      
