@@ -1,7 +1,6 @@
 import React from "react";
 
 const Card = ({ id, title, image_url, price, details, category }) => {
-  console.log(title);
   return (
     <div className="card" id={id}>
       <img className="card__image" src={image_url} alt={title} />

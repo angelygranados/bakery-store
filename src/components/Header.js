@@ -30,7 +30,7 @@ const Header = () => {
           <ul>
             <li>
               <Link
-                to="/products"
+                to="/productos"
                 className="link "
                 id="products"
                 onClick={toggleActiveNav}

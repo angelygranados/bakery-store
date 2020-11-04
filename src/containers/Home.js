@@ -1,6 +1,5 @@
 import React from "react";
 import { connect } from "react-redux";
-import CardList from "../components/CardList";
 import Slider from "../components/Slider";
 
 const Home = ({ featured }) => {
