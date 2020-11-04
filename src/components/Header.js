@@ -54,7 +54,7 @@ const Header = () => {
           <Link to="/cart" className="icon" onClick={toggleActiveNav}>
             <img src={cartIcon} alt="Mi carrito" />
           </Link>
-          <Link to="/favorites" className="icon" onClick={toggleActiveNav}>
+          <Link to="/favoritos" className="icon" onClick={toggleActiveNav}>
             <img src={heartIcon} alt="Mis favoritos" />
           </Link>
         </div>

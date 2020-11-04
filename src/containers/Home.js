@@ -1,5 +1,6 @@
 import React from "react";
 import { connect } from "react-redux";
+import { Link } from "react-router-dom";
 import Slider from "../components/Slider";
 
 const Home = ({ featured }) => {
@@ -35,9 +36,14 @@ const Home = ({ featured }) => {
         </div>
       </section>
       <section className="home__featured_products wrapper">
-        <h2>Destacados</h2>
+        <div className="featured_products--title">
+          <h2>Destacados</h2>{" "}
+          <Link className="btn" to="/productos">
+            Ver más
+          </Link>
+        </div>
+
         <Slider items={featured} />
-        {/* <CardList products={featured} /> */}
       </section>
     </section>
   );
