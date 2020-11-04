@@ -1,7 +1,14 @@
 import React from "react";
 import Card from "./Card";
 
-const CardList = ({ products, handleFavorites, myFavorites, handleCart }) => {
+const CardList = ({
+  products,
+  handleFavorites,
+  myFavorites,
+  handleCart,
+  myCart,
+  handleQtty,
+}) => {
   return (
     <div className="card_list">
       {products.map((product) => {
@@ -12,6 +19,8 @@ const CardList = ({ products, handleFavorites, myFavorites, handleCart }) => {
             handleFavorites={handleFavorites}
             myFavorites={myFavorites}
             handleCart={handleCart}
+            myCart={myCart}
+            handleQtty={handleQtty}
           />
         );
       })}

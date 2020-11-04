@@ -1,9 +1,11 @@
-import React from "react";
+import React, { cloneElement } from "react";
 import { connect } from "react-redux";
 import {
   addToFavorites,
   removeFromFavorites,
   addToCart,
+  updateProductsCart,
+  removeFromCart,
 } from "../actions/index";
 import CardList from "../components/CardList";
 
@@ -13,13 +15,14 @@ const ProductsContainer = ({
   addToFavorites,
   removeFromFavorites,
   addToCart,
+  myCart,
+  updateProductsCart,
+  removeFromCart,
 }) => {
   function handleCart(e) {
     const productId = Number(e.target.name);
-    const selectedProduct = products.find(
-      (product) => productId === product.id
-    );
-    addToCart(selectedProduct);
+    const product = { productId: productId, qtty: 1 };
+    addToCart(product);
   }
   function handleFavorites(e) {
     const productId = Number(e.target.name);
@@ -37,6 +40,19 @@ const ProductsContainer = ({
       }
     } else {
       addToFavorites(selectedProduct);
+    }
+  }
+  function handleQtty(e, id, productQtty) {
+    if (e.target.name === "more") {
+      const productPlus = { productId: id, qtty: productQtty + 1 };
+      updateProductsCart(productPlus);
+    } else {
+      if (productQtty == 1) {
+        removeFromCart(id);
+      } else {
+        const productLess = { productId: id, qtty: productQtty - 1 };
+        updateProductsCart(productLess);
+      }
     }
   }
   return (
@@ -61,6 +77,8 @@ const ProductsContainer = ({
               handleFavorites={handleFavorites}
               myFavorites={myFavorites}
               handleCart={handleCart}
+              myCart={myCart}
+              handleQtty={handleQtty}
             />
           </>
         )}
@@ -71,17 +89,20 @@ const ProductsContainer = ({
         handleFavorites={handleFavorites}
         myFavorites={myFavorites}
         handleCart={handleCart}
+        myCart={myCart}
+        handleQtty={handleQtty}
       />
     </section>
   );
 };
 const mapStateToProps = (state) => {
-  console.log(state);
   return {
     ...state,
     addToFavorites,
     removeFromFavorites,
     addToCart,
+    updateProductsCart,
+    removeFromCart,
   };
 };
 
@@ -89,5 +110,7 @@ const mapDispatchToProps = {
   addToFavorites,
   removeFromFavorites,
   addToCart,
+  updateProductsCart,
+  removeFromCart,
 };
 export default connect(mapStateToProps, mapDispatchToProps)(ProductsContainer);

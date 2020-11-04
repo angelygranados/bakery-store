@@ -26,9 +26,22 @@
         @include copy($align: center)
     &__counter 
       display: flex
+      justify-content: space-between
       img 
         width: 40px
         height: 40px
         cursor: pointer
+      .countButtons 
+        display: flex
+        align-items: center
+        img 
+          width: 25px
+          height: 25px
+          margin: 0 10px
+        span
+          border: 1px solid rgba($txt_color_ligth, 0.5)
+          border-radius: 5px
+          padding: 0 10px
+          @include copy
 
       
