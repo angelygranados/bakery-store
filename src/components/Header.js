@@ -51,7 +51,7 @@ const Header = () => {
           </ul>
         </nav>
         <div className="navigation__actions">
-          <Link to="/cart" className="icon" onClick={toggleActiveNav}>
+          <Link to="/carrito" className="icon" onClick={toggleActiveNav}>
             <img src={cartIcon} alt="Mi carrito" />
           </Link>
           <Link to="/favoritos" className="icon" onClick={toggleActiveNav}>

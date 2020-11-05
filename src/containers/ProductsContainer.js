@@ -70,17 +70,7 @@ const ProductsContainer = ({
       </h2>
       {Object.keys(myFavorites).length === 0 &&
         window.location.pathname === "/favoritos" && (
-          <>
-            <p>Todavía no tienes favoritos</p>
-            <CardList
-              products={products}
-              handleFavorites={handleFavorites}
-              myFavorites={myFavorites}
-              handleCart={handleCart}
-              myCart={myCart}
-              handleQtty={handleQtty}
-            />
-          </>
+          <p>Todavía no tienes favoritos</p>
         )}
       <CardList
         products={

@@ -6,7 +6,7 @@
       "id": 1,
       "title": "Enrrollado",
       "image_url": "https://cdn.pixabay.com/photo/2016/03/27/21/59/bread-1284438_960_720.jpg",
-      "price": "$7745.61",
+      "price": "7745.61",
       "details": "Diverse logistical focus group",
       "category": "panadería",
       "featured": true
@@ -15,7 +15,7 @@
       "id": 2,
       "title": "Campesino",
       "image_url": "https://cdn.pixabay.com/photo/2018/06/10/20/30/bread-3467243_960_720.jpg",
-      "price": "$10337.73",
+      "price": "10337.73",
       "details": "Up-sized attitude-oriented core",
       "category": "congelados",
       "featured": true
@@ -24,7 +24,7 @@
       "id": 3,
       "title": "Canilla",
       "image_url": "https://cdn.pixabay.com/photo/2016/07/01/19/43/pretzels-1491789_960_720.jpg",
-      "price": "$7436.97",
+      "price": "7436.97",
       "details": "Exclusive maximized core",
       "category": "congelados",
       "featured": true
@@ -33,7 +33,7 @@
       "id": 4,
       "title": "Trenzado",
       "image_url": "https://cdn.pixabay.com/photo/2019/03/10/16/22/bread-4046506_960_720.jpg",
-      "price": "$3898.95",
+      "price": "3898.95",
       "details": "Multi-channelled secondary website",
       "category": "respostería",
       "featured": true
@@ -42,7 +42,7 @@
       "id": 5,
       "title": "Tajado trigo",
       "image_url": "https://cdn.pixabay.com/photo/2020/09/25/11/43/bread-5601119_960_720.jpg",
-      "price": "$18239.27",
+      "price": "18239.27",
       "details": "Versatile client-driven workforce",
       "category": "congelados",
       "featured": true
@@ -51,7 +51,7 @@
       "id": 6,
       "title": "Tajado integral",
       "image_url": "https://cdn.pixabay.com/photo/2018/02/06/17/10/grain-bread-3135224_960_720.jpg",
-      "price": "$14438.80",
+      "price": "14438.80",
       "details": "Face to face zero tolerance open system",
       "category": "respostería",
       "featured": false
@@ -60,7 +60,7 @@
       "id": 7,
       "title": "Quesadillas",
       "image_url": "https://cdn.pixabay.com/photo/2013/10/16/22/34/bread-196511_960_720.jpg",
-      "price": "$14920.59",
+      "price": "14920.59",
       "details": "Decentralized well-modulated productivity",
       "category": "respostería",
       "featured": true
@@ -69,7 +69,7 @@
       "id": 8,
       "title": "Cinnamon Rolls",
       "image_url": "https://cdn.pixabay.com/photo/2019/12/25/17/55/cinnamon-roll-4719023_960_720.jpg",
-      "price": "$13400.94",
+      "price": "13400.94",
       "details": "Devolved mobile policy",
       "category": "respostería",
       "featured": false
@@ -78,7 +78,7 @@
       "id": 9,
       "title": "Trenzado aliñado",
       "image_url": "https://cdn.pixabay.com/photo/2020/08/07/12/27/bread-5470532_960_720.jpg",
-      "price": "$11578.81",
+      "price": "11578.81",
       "details": "Horizontal bi-directional adapter",
       "category": "respostería",
       "featured": true
@@ -87,7 +87,7 @@
       "id": 10,
       "title": "Bagette",
       "image_url": "https://cdn.pixabay.com/photo/2017/06/23/23/57/bread-2436370_960_720.jpg",
-      "price": "$2005.83",
+      "price": "2005.83",
       "details": "User-centric homogeneous definition",
       "category": "congelados",
       "featured": false
@@ -98,7 +98,7 @@
       "id": 1,
       "title": "Enrrollado",
       "image_url": "https://cdn.pixabay.com/photo/2016/03/27/21/59/bread-1284438_960_720.jpg",
-      "price": "$7745.61",
+      "price": "7745.61",
       "details": "Diverse logistical focus group",
       "category": "panadería",
       "featured": true
@@ -107,7 +107,7 @@
       "id": 2,
       "title": "Campesino",
       "image_url": "https://cdn.pixabay.com/photo/2018/06/10/20/30/bread-3467243_960_720.jpg",
-      "price": "$10337.73",
+      "price": "10337.73",
       "details": "Up-sized attitude-oriented core",
       "category": "congelados",
       "featured": true
@@ -116,7 +116,7 @@
       "id": 5,
       "title": "Tajado trigo",
       "image_url": "https://cdn.pixabay.com/photo/2020/09/25/11/43/bread-5601119_960_720.jpg",
-      "price": "$18239.27",
+      "price": "18239.27",
       "details": "Versatile client-driven workforce",
       "category": "congelados",
       "featured": true
@@ -125,7 +125,7 @@
       "id": 6,
       "title": "Tajado integral",
       "image_url": "https://cdn.pixabay.com/photo/2018/02/06/17/10/grain-bread-3135224_960_720.jpg",
-      "price": "$14438.80",
+      "price": "14438.80",
       "details": "Face to face zero tolerance open system",
       "category": "respostería",
       "featured": false
@@ -134,7 +134,7 @@
       "id": 8,
       "title": "Cinnamon Rolls",
       "image_url": "https://cdn.pixabay.com/photo/2019/12/25/17/55/cinnamon-roll-4719023_960_720.jpg",
-      "price": "$13400.94",
+      "price": "13400.94",
       "details": "Devolved mobile policy",
       "category": "respostería",
       "featured": false
@@ -143,7 +143,7 @@
       "id": 10,
       "title": "Bagette",
       "image_url": "https://cdn.pixabay.com/photo/2017/06/23/23/57/bread-2436370_960_720.jpg",
-      "price": "$2005.83",
+      "price": "2005.83",
       "details": "User-centric homogeneous definition",
       "category": "congelados",
       "featured": false
