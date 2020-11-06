@@ -1,6 +1,10 @@
 .Shopping_cart 
+  min-height: calc( 100vh -  208px)
+  p 
+    @include copy
   table
     width: 60%
+    margin: $space * 5 0 0
     border-collapse: collapse
     thead 
       font-size: 15px
@@ -13,9 +17,22 @@
     tbody
       tr 
         border-bottom: 1px solid rgba($txt_color_ligth, 0.3)
+        @include copy
+        &:last-of-type
+          td 
+            padding-top: $space
+            font-weight: bold
         td 
           padding-bottom: $space
           img 
             width: 80px
             height: 50px
             vertical-align: middle
+            margin: $space 0 0
+            &.icon
+              width: 25px
+              height: 25px
+              cursor: pointer
+              margin: 0
+              &:hover 
+                transform: scale(1.1) rotate(15deg)
